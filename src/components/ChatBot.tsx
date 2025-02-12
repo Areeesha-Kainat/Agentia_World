@@ -470,7 +470,7 @@ const ChatBot = () => {
               <button
                 onClick={handleSendMessage}
                 disabled={isLoading}
-                className={`ml-3 ${isDarkMode ? "bg-purple-700" : "bg-purple-600"} text-white px-4 py-2 rounded-full shadow-md hover:${isDarkMode ? "bg-purple-800" : "bg-purple-700"} disabled:opacity-50 transition-all`}
+                className={`ml-3 ${isDarkMode ? "bg-purple-700" : "bg-purple-600"} text-white px-2 py-2 rounded-full shadow-md hover:${isDarkMode ? "bg-purple-800" : "bg-purple-700"} disabled:opacity-50 transition-all`}
               >
                 Send
               </button>
