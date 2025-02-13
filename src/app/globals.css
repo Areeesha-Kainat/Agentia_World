@@ -2,3 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+  /* Override container when chat is opened */
+  @media (max-width: 640px) {
+    #tidio-chat.tidio-open {
+      max-height: 70vh !important; /* Restrict height */
+      max-width: 80vw !important;  /* Reduced width */
+      border-radius: 0.75rem;      /* Optional: add rounded corners */
+      overflow: hidden;            /* Hide overflow if necessary */
+    }
+  }
+
+/* Default for larger screens */
+#tidio-chat.tidio-open {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    width: 300px !important;   /* Adjust as needed */
+    height: 400px !important;  /* Adjust as needed */
+    border-radius: 0.75rem;
+    overflow: hidden;
+    z-index: 9999;
+  }
+  
+  /* For smaller screens: force the chat to cover only a small area */
+  @media (max-width: 640px) {
+    #tidio-chat.tidio-open {
+      width: 50vw !important;  /* 50% of viewport width */
+      height: 50vh !important; /* 50% of viewport height */
+      bottom: 1rem !important;
+      right: 1rem !important;
+    }
+    
+    /* Ensure the inner content (iframe) scales with the container */
+    #tidio-chat.tidio-open iframe {
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }
+  
