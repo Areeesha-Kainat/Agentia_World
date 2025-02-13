@@ -310,9 +310,25 @@ const faqData = [
     question: "What is the future of AI?",
     answer: "The future of AI includes advancements in general AI (machines with human-like intelligence), improved human-AI collaboration, and applications in solving global challenges like climate change and healthcare.",
   },
+  // More random questions and topics
+  {
+    question: "What is ChatGPT?",
+    answer: "ChatGPT is an AI language model created by OpenAI that can generate human-like text. It is used in chatbots, customer service, and writing assistants.",
+  },
+  {
+    question: "What is a self-driving car?",
+    answer: "A self-driving car is a vehicle that can drive itself without human input, using sensors, cameras, and AI to navigate and make decisions.",
+  },
+  {
+    question: "What is AI in gaming?",
+    answer: "In gaming, AI is used to create intelligent non-player characters (NPCs), adjust difficulty levels, and enhance the gaming experience by making games more interactive and responsive.",
+  },
+  {
+    question: "What are virtual assistants?",
+    answer: "Virtual assistants, like Siri, Alexa, and Google Assistant, use AI to perform tasks like answering questions, playing music, and controlling smart home devices.",
+  },
 ];
 
-// Casual Responses for the ChatBot
 const casualResponses = [
   { keyword: "hi", response: "Hello! How can I assist you with AI and AI agents today?" },
   { keyword: "how are you", response: "I'm doing great, thank you for asking! How can I help you with AI today?" },
@@ -328,6 +344,11 @@ const casualResponses = [
   { keyword: "deep learning", response: "Deep learning is a type of machine learning that uses neural networks to model complex patterns. How can I assist you with deep learning?" },
   { keyword: "nlp", response: "Natural Language Processing (NLP) enables machines to understand and generate human language. What do you need help with regarding NLP?" },
   { keyword: "ethics", response: "Ethical concerns in AI include bias, privacy, and job displacement. What specific ethical issue are you interested in?" },
+  { keyword: "djd", response: "It seems like you're searching for something random. I'm here to help with AI-related questions. How can I assist you today?" },
+  { keyword: "how ai works", response: "AI works by using algorithms and data to make decisions, predict outcomes, and improve over time. Would you like to learn more?" },
+  { keyword: "can ai learn by itself", response: "Yes, AI can learn by itself using techniques like machine learning. It improves over time with more data." },
+  { keyword: "what is chatbot", response: "A chatbot is a program that uses AI to simulate conversations with users, answering questions and assisting with tasks." },
+  { keyword: "who is openai", response: "OpenAI is the company behind powerful AI models like GPT, which help in language processing tasks like chatbots and virtual assistants." },
 ];
 
 
